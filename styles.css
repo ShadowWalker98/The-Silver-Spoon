@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.first{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpeg);
+    background-position:center;
+    background-size: cover;
+    position: absolute;
+
+}
+.container{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    box-shadow: 0 0 20px 9px;
+
+}
+.button-box{
+    width:300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px;
+    border-radius: 30px;
+}
+#login{
+    left:50px;
+}
+#register
+{
+    left:450px;
+}
+/*
+.sigup,.login{
+    width: 50%;
+    background:#fff;
+    height: 60px;
+}
+*/
